@@ -79,10 +79,10 @@ POSSIBILITY OF SUCH DAMAGE.
 
 /* ADB keyboard handler id */
 #define ADB_HANDLER_STD 0x01        /* IIGS, M0116 */
-#define ADB_HANDLER_AEK 0x02        /* M0115, M3501 */
+#define ADB_HANDLER_AEK 0x03        /* M0115, M3501 */
 #define ADB_HANDLER_AEK_RMOD 0x03   /* M0115, M3501, alternate mode enableing right modifiers */
 #define ADB_HANDLER_STD_ISO 0x04    /* M0118, ISO swapping keys */
-#define ADB_HANDLER_AEK_ISO 0x05    /* M0115, M3501, ISO swapping keys */
+#define ADB_HANDLER_AEK_ISO 0x03    /* M0115, M3501, ISO swapping keys */
 #define ADB_HANDLER_M1242_ANSI 0x10 /* Adjustable keyboard */
 #define ADB_HANDLER_CLASSIC1_MOUSE 0x01
 #define ADB_HANDLER_CLASSIC2_MOUSE 0x02
