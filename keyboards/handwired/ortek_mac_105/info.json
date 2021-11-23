@@ -1,0 +1,6 @@
+{
+    "keyboard_name": "handwired/ortek_mac_105",
+    "maintainer": "qmk",
+    "processor": "at90usb1286",
+    "layouts": {}
+}
