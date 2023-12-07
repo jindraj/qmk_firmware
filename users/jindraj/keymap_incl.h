@@ -14,6 +14,7 @@ enum custom_keycodes {
     SS_GIS,
     SS_AST,
     SS_EMPL,
+    SS_CKLB,
 };
 
 
@@ -75,6 +76,11 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
    case SS_GIS:
      if (record->event.pressed) {
        SEND_STRING("goinstore.com");
+     }
+     break;
+   case SS_CKLB:
+     if (record->event.pressed) {
+       SEND_STRING("cookielab.io");
      }
      break;
   }
