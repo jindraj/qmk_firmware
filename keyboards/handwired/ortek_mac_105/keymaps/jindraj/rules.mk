@@ -1,3 +1,2 @@
-AUDIO_ENABLE = yes          # Audio output
+AUDIO_ENABLE = no          # Audio output
 DYNAMIC_MACRO_ENABLE = yes
-
