@@ -1,6 +1,5 @@
 #define DYNAMIC_MACRO_SIZE 1024
 #define DYNAMIC_MACRO_USER_CALL
-#define IGNORE_MOD_TAP_INTERRUPT
 #define TAPPING_FORCE_HOLD
 
 /* Bootmagic Lite key configuration */
@@ -16,5 +15,3 @@
         #define TEMPO_DEFAULT 80
     #endif
 #endif
-
-

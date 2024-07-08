@@ -3,14 +3,12 @@
 
 #pragma once
 
-#include "config_common.h"
-
 /* USB Device descriptor parameter */
 #define VENDOR_ID    0xFEED
 #define PRODUCT_ID   0xCAFE
 #define DEVICE_VER   0x0001
-#define MANUFACTURER jindraj
-#define PRODUCT      Ortek Mac-105 Handwired
+#define MANUFACTURER "jindraj"
+#define PRODUCT      "Ortek Mac-105 Handwired"
 
 /* key matrix size */
 #define MATRIX_ROWS 6
@@ -88,7 +86,3 @@
 //#define NO_ACTION_LAYER
 //#define NO_ACTION_TAPPING
 //#define NO_ACTION_ONESHOT
-
-/* disable these deprecated features by default */
-#define NO_ACTION_MACRO
-#define NO_ACTION_FUNCTION
